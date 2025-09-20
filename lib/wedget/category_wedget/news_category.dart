@@ -4,7 +4,6 @@ import '../../model/category.dart';
 import '../../styles.dart';
 class CategoryItems extends StatelessWidget {
  final Category x ;
-
   const CategoryItems({super.key, required this.x});
   @override
   Widget build(BuildContext context) {
